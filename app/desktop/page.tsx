@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import FaceTracker, { TrackerStatus } from "@/components/FaceTracker";
 import ArticleCard from "@/components/ArticleCard";
 import { Article } from "@/lib/types";
-import { fetchTopStories } from "@/lib/hn-client";
+import { fetchTopStories } from "@/lib/news-client";
 import { recordRoll, getRollCount } from "@/lib/roll-store";
 
 export default function DesktopPage() {

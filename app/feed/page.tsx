@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import FaceTracker, { TrackerStatus } from "@/components/FaceTracker";
 import ArticleCard from "@/components/ArticleCard";
 import { Article } from "@/lib/types";
-import { fetchTopStories } from "@/lib/hn-client";
+import { fetchTopStories } from "@/lib/news-client";
 import { recordRoll, getRollCount } from "@/lib/roll-store";
 
 const INACTIVITY_MS = 30_000;
