@@ -12,7 +12,7 @@ export default function DesktopPage() {
   const [rollCounts, setRollCounts] = useState<Record<string, number>>({});
   const [sessionRolls, setSessionRolls] = useState(0);
   const [status, setStatus] = useState<TrackerStatus>("idle");
-  const [threshold, setThreshold] = useState(0.5);
+  const [threshold, setThreshold] = useState(0.35);
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
