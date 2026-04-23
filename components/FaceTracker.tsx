@@ -27,7 +27,7 @@ type RollState = "idle" | "rolling";
 
 export default function FaceTracker({
   onRoll,
-  threshold = 0.35,
+  threshold = 0.22,
   debounceMs = 1500,
   showDebug = false,
   preview = "hidden",
@@ -155,7 +155,7 @@ export default function FaceTracker({
       } else if (rollStateRef.current === "rolling") {
         const elapsed = now - rollStartRef.current;
         if (sig < threshold * 0.6) {
-          if (elapsed >= 100 && elapsed <= 1000) {
+          if (elapsed >= 60 && elapsed <= 1000) {
             debounceUntilRef.current = now + debounceMs;
             onRollRef.current();
           }

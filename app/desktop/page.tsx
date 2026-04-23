@@ -12,7 +12,7 @@ export default function DesktopPage() {
   const [rollCounts, setRollCounts] = useState<Record<string, number>>({});
   const [sessionRolls, setSessionRolls] = useState(0);
   const [status, setStatus] = useState<TrackerStatus>("idle");
-  const [threshold, setThreshold] = useState(0.35);
+  const [threshold, setThreshold] = useState(0.22);
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
@@ -97,7 +97,7 @@ export default function DesktopPage() {
             </span>
             <input
               type="range"
-              min={0.2}
+              min={0.1}
               max={0.8}
               step={0.01}
               value={threshold}
