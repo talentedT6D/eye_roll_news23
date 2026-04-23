@@ -38,7 +38,7 @@ export default function SessionEndPage() {
       ) {
         await navigator.share({
           title: "Eye Roll News",
-          text: `I rolled my eyes ${count} times at the news today.`,
+          text: `${count} eye rolls at today's false promises. Tasteful disdain, restored.`,
           files: [file],
         });
         setShared(true);

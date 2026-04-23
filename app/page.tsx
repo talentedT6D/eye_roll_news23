@@ -33,12 +33,16 @@ export default function PermissionGate() {
 
       <section className="flex-1 flex flex-col justify-center max-w-[420px]">
         <h1 className="font-serif text-[40px] leading-[1.05] tracking-[-0.02em] text-ink">
-          A news app you skip by rolling your eyes.
+          Scoff at every false promise. One eye roll at a time.
         </h1>
         <p className="mt-6 text-[16px] leading-[1.55] text-ink-muted">
-          We use your camera to detect eye rolls.
-          <br />
-          Nothing is recorded. Nothing leaves your phone.
+          The only truth about every election is the false promises made.
+          Eye Roll News is for scoffing at pathetic attempts for votes —
+          scroll with your eyes, bring back tasteful disdain.
+        </p>
+        <p className="mt-4 text-[13px] leading-[1.55] text-ink-muted/80">
+          We use your camera to detect eye rolls. Nothing is recorded.
+          Nothing leaves your phone.
         </p>
       </section>
 

@@ -18,7 +18,7 @@ const serif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Eye Roll News",
   description:
-    "A news app where you skip stories by rolling your eyes at them. Every eye roll is counted, globally.",
+    "Scoff at every false promise. Eye Roll News lets you scroll with your eyes and bring back tasteful disdain for pathetic attempts at votes.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Eye Roll News",
     description:
-      "A news app where you skip stories by rolling your eyes at them.",
+      "Scoff at every false promise. Scroll with your eyes. Bring back tasteful disdain.",
     type: "website",
   },
 };
